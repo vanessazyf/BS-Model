@@ -5,8 +5,9 @@ from scipy.stats import norm
 from scipy import optimize
 import matplotlib.pyplot as plt
 
-import black_analytics as ba #import black analyticss in another Python file
-reload(ba) #make sure we are using the latest version
+import Analysis as ba #import black analyticss file
+reload(ba) #latest version
+
 f = 100
 t = 2
 shift = 30
